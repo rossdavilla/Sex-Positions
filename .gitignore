@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Raw source scrape (bulky, not part of the deliverable)
+Original/
+
+# Local Claude Code settings
+.claude/settings.local.json

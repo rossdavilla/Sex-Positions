@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Position Yourself — An Inclusive Guide to Sex Positions</title>
+  <meta name="description" content="Browse 56 sex positions sorted into five simple categories — Missionary, Cowgirl/boy, Doggystyle, Spooning, and Misc — or take the quiz to find positions you're most likely to love.">
+  <meta name="theme-color" content="#F86FDF">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23F86FDF'/%3E%3Cstop offset='.5' stop-color='%2357E1FB'/%3E%3Cstop offset='1' stop-color='%234166D9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='9' fill='url(%23g)'/%3E%3C/svg%3E">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span class="dot"></span>Position Yourself</a>
+      <span class="spacer"></span>
+      <a class="navlink plain" href="#browse">Browse</a>
+      <a class="navlink cta" href="quiz.html">Take the quiz ✨</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="blob"></div>
+    <div class="wrap">
+      <span class="eyebrow">56 positions · 5 easy categories</span>
+      <h1>Find the position<br>that <span class="grad">fits you two.</span></h1>
+      <p class="lede">Every position, sorted by how your bodies actually line up — plus a quick quiz that matches you to the ones you're most likely to enjoy.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary big" href="quiz.html">Take the quiz →</a>
+        <a class="btn btn-ghost big" href="#browse">Browse all</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section" id="browse">
+      <div class="section-head">
+        <h2>Browse positions</h2>
+        <span class="count" id="count"></span>
+      </div>
+
+      <div class="filter-scroll">
+        <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+      </div>
+
+      <div class="cat-desc hide" id="cat-desc" aria-live="polite"></div>
+
+      <div class="grid" id="grid" aria-live="polite"></div>
+      <p class="empty hide" id="empty">No positions in this category.</p>
+    </section>
+  </main>
+
+  <!-- detail modal -->
+  <div class="modal-backdrop" id="modal" role="dialog" aria-modal="true" aria-labelledby="m-title">
+    <div class="modal" id="modal-panel">
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="wrap">
+      <p class="disc"><strong>Positioned</strong> is an educational, sex-positive reference. Everything here assumes enthusiastic, ongoing consent between adults — the best position is always the one you've both said yes to. Descriptions are illustrative; go at your own pace, use lube and protection as needed, and stop if anything hurts.</p>
+      <span class="spacer" style="flex:1"></span>
+      <a href="quiz.html">Take the quiz →</a>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/detail.js"></script>
+  <script src="js/browse.js"></script>
+</body>
+</html>
